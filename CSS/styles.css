@@ -1,6 +1,6 @@
 .body {
   background-color: hsl(229, 57%, 11%);
-  position: absolute;
+  position: fixed;
   height: 100%;
 }
 
@@ -177,36 +177,41 @@
   color: #666;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
 /* Change background image. */
-  .bg-image {
-    background-image: url(CSS/images/bg-mobile.svg);
-    position: fixed;
-  }
 
   .shapeLeft {
     position: relative;
-    top: 240px;
+    top: 50px;
     width: 80%;
-    left: 65%;
+    margin: 0 1%;
   }
 
   .logo {
     position: relative;
-    left: 75%;
-    bottom: 30px;
+    bottom: 220px;
+  }
+
+  .icons {
+    position: relative;
+    bottom: 300px;
+  }
+
+  .iconShapes {
+    position: relative;
+    bottom: 180px;
   }
 
   .shapeRight{
      position: relative;
      left: 55%;
-     top: 300px;
+     top: 100px;
    }
 
   .block {
     position: relative;
     right: 91%;
-    top: 200px;
+    bottom: 5px;
   }
 
 }
