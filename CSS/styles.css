@@ -1,0 +1,212 @@
+.body {
+  background-color: hsl(229, 57%, 11%);
+  position: absolute;
+  height: 100%;
+}
+
+.bg-image {
+  position: fixed;
+  top: 50%;
+  width: 100%;
+}
+
+.shapeLeft {
+  position: relative;
+  height: 175px;
+  width: 325px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  border-top-right-radius: 75px;
+  top: 225px;
+  left: 65%;
+}
+
+.shapeRight {
+  position: relative;
+  height: 125px;
+  width: 450px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  left: 145%;
+  top: 100px;
+}
+
+.logo {
+  position: relative;
+  left: 75%;
+  bottom: 35px;
+}
+
+.icons {
+  text-align: center;
+  position: relative;
+  left: 41%;
+  bottom: 120px;
+}
+
+.icon {
+  margin: 0 4%;
+}
+
+.iconShapes {
+  text-align: center;
+}
+
+.shapeDoc {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  left: 72%;
+  bottom: 4.5px;
+}
+
+.shapeFolder {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  left: 86%;
+  bottom: 44px;
+}
+
+.shapeUpload {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  left: 100.5%;
+  bottom: 84px;
+}
+
+.text1 {
+  position: relative;
+  color: #FFF;
+  left: 155%;
+  bottom: 240px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.meter {
+  position: relative;
+  width: 400px;
+  height: 20px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 20px;
+  left: 151%;
+  bottom: 155px;
+}
+
+.gradient {
+  position: relative;
+  background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  width: 325px;
+  height: 20px;
+  border-radius: 20px;
+  left: 151%;
+  bottom: 175px;
+}
+
+.dot {
+  position: relative;
+  background-color: #FFF;
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+  left: 219%;
+  bottom: 193px;
+}
+
+.text2 {
+  position: relative;
+  color: #FFF;
+  left: 150%;
+  font-family: 'Raleway', sans-serif;
+  bottom: 210px;
+}
+
+.text3 {
+  position: relative;
+  color: #FFF;
+  left: 229%;
+  font-family: 'Raleway', sans-serif;
+  bottom: 235px;
+}
+
+.rect {
+  position: relative;
+  height: 70px;
+  width: 180px;
+  background-color: #FFF;
+  border-radius: 10px;
+  left: 240%;
+  bottom: 370px;
+}
+
+.tri {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right:30px solid white;
+  transform: rotateZ(180deg);
+  left: 240%;
+  bottom: 400px;
+}
+
+.text4 {
+  position: relative;
+  color: #FFF;
+  left: 243%;
+  font-family: 'Raleway', sans-serif;
+  bottom: 505px;
+  color: #000;
+  font-size: 3rem;
+}
+
+.text5 {
+  position: relative;
+  color: #FFF;
+  left: 263%;
+  font-family: 'Raleway', sans-serif;
+  bottom: 545px;
+  color: #666;
+}
+
+@media (max-width: 1000px) {
+/* Change background image. */
+  .bg-image {
+    background-image: url(CSS/images/bg-mobile.svg);
+    position: fixed;
+  }
+
+  .shapeLeft {
+    position: relative;
+    top: 240px;
+    width: 80%;
+    left: 65%;
+  }
+
+  .logo {
+    position: relative;
+    left: 75%;
+    bottom: 30px;
+  }
+
+  .shapeRight{
+     position: relative;
+     left: 55%;
+     top: 300px;
+   }
+
+  .block {
+    position: relative;
+    right: 91%;
+    top: 200px;
+  }
+
+}
